@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-121
+122
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 	202403161437574608.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmrnormal
@@ -28,27 +28,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403161624227208.pdf --> para 202403161624227208.pdf:Page_idx: 1 2 <-> [(0, 1)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403181146182508.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmrnormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403181146182508.pdf: >शासन परिपत्रक क्रमांक< >संकिर्ण-२०२४/प्र.क्र.२५/विशि-३<
-	elapsed_time:202403181146182508.pdf: 0.000090
-  exec_task: doc_translator_hf 
-    Paras: #64 Sentences: #0
-	[0]  #words: 263 #sentences: 44
-	After generate: 3 MB
-	[1]  #words: 264 #sentences: 26
-	After generate: 3 MB
-	[2]  #words: 35 #sentences: 3
-	After generate: 3 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403181740163208.pdf missing_cmaps: dvotsurekhmr, dvotsurekhmrbold, dvotsurekhmrnormal
+	202403191242482408.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmrnormal, sakalmarathinormal
   exec_task: word_recognizer 
 	Tesseract on page: 0
   exec_task: pdftable_finder 
@@ -56,12 +36,14 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	**FirstPage: 6: रूसायो २०२४/प्र.क्र.३१/विशि-३ ==शासन निर्णय क्रमांक: रूसायो २०२४/प्र.क्र.३१/विशि-३
-	extract_order_number:202403181740163208.pdf: >शासन निर्णय क्रमांक< >रूसायो २०२४/प्र.क्र.३१/विशि-३<
-	elapsed_time:202403181740163208.pdf: 0.001130
+	**FirstPage: 5: प्रशिक्ष-२०२४/प्र.क्र.११/अर्थसंकल्प ==शासन ज्ञापन क्रमांक: प्रशिक्ष-२०२४/प्र.क्र.११/अर्थसंकल्प
+	extract_order_number:202403191242482408.pdf: >शासन ज्ञापन क्रमांक< >प्रशिक्ष-२०२४/प्र.क्र.११/अर्थसंकल्प<
+	elapsed_time:202403191242482408.pdf: 0.000869
   exec_task: doc_translator_hf 
-    Paras: #13 Sentences: #0
-	[0]  #words: 136 #sentences: 14
-	After generate: 3 MB
+    Paras: #28 Sentences: #0
+	[0]  #words: 257 #sentences: 33
+	After generate: 8 MB
+	[1]  #words: 74 #sentences: 3
+	After generate: 8 MB
   exec_task: text_writer 
-#docs: 121 #processed: 4
+#docs: 122 #processed: 3
